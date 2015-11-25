@@ -1,0 +1,23 @@
+body {
+  font-family:sans-serif;
+  background-color: #ffeeee;
+  font-size: 12px;
+}
+
+
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+dt {
+  float:left;
+  clear:left;
+  min-width: 20%;
+  padding: 1px;
+}
+dd {
+  float:left;
+  padding: 1px;
+}
